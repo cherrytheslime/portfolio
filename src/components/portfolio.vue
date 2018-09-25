@@ -41,8 +41,6 @@ module.exports = {
     this.$http.get('portfolio.json').then((response) => {
       // success callback
       this.jobs = response.data
-      console.log(this.jobs)
-      console.log('got portfolio')
     }, (response) => {
       // error callback
       console.log(response)
