@@ -1,5 +1,8 @@
 module.exports = {
   output: {
-    publicUrl: '/portfolio',
+    publicUrl: '/portfolio/',
+    html: {
+      title: 'portfolio'
+    }
   }
 }
