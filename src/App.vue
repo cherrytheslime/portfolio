@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Portfolio from '@/components/portfolio'
+import Portfolio from '@/components/portfolio.vue'
 
 export default {
   name: 'app',
